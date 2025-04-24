@@ -1,68 +1,34 @@
-# Once UI for Next.js
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-A design system for indie builders who move fast and break limits without neglecting quality.
+## Getting Started
 
+First, run the development server:
 
-![Once UI](public/images/og/home.jpg)
-
-# Features
-
-Start building your Next.js app in minutes with: 
-* **A robust token and style system** that simplifies customization and ensures consistency. 
-* **A copy-and-paste component library** that integrates seamlessly into your project.
-* **Interactive documentation** to apply your branding and set component properties.
-
-# Demo
-[demo.once-ui.com](https://demo.once-ui.com)
-
-![Once UI](public/images/demo.png)
-
-# Getting started
-Clone the starter template from GitHub.
 ```bash
-git clone https://github.com/once-ui-system/nextjs-starter.git
+npm run dev
+# or
+yarn dev
 ```
 
-You can also deploy it directly to Vercel.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&redirect-url=https%3A%2F%2Fonce-ui.com%2Fdocs%2F)
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-View the step-by-step guide at [once-ui.com/docs](https://once-ui.com/docs).
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-# Documentation
-[once-ui.com/docs](https://once-ui.com/docs)
+## Learn More
 
-# Authors
-Connect with us!
+To learn more about Next.js, take a look at the following resources:
 
-Lorant One: [Site](https://lorant.one), [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/lorant-one/)  
-Zsofia Komaromi: [Site](https://zsofia.pro), [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-# Get involved
-- Join the [Design Engineers Club](https://discord.com/invite/5EyAQ4eNdS) on Discord to connect with designers, developers and share your projects.
-- Report a [bug](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=bug&template=bug_report.md).
-- Submit a [feature request](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-# License
+## Deploy on Vercel
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-# Sponsors
-
-[github.com/sponsors/once-ui-system](https://github.com/sponsors/once-ui-system)
-
-Become a sponsor and help us continue to develop and maintain this project.
-
-# Once UI for Figma
-
-Once UI is also available for Figma.  
-Design and prototype entire products from scratch in hours. Use the same tokens and components as the Next.js design system.
-
-Start designing: [once-ui.com/figma](https://once-ui.com/figma)
-
-# Once UI Pro
-
-Take your project further with Once UI Pro. Get access to complete templates, fully designed pages, and modular blocks that make building apps even faster.
-
-Explore Pro: [once-ui.com/pro](https://once-ui.com/pro)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
